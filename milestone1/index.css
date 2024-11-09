@@ -1,0 +1,150 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.text{
+  font-size: large;
+}
+
+.width{
+  position: relative;
+  margin-top: 1px;
+  background-color: rgb(201, 194, 194);
+  height: 4px;
+  font-weight: 200;
+}
+.height{
+  background-color: red;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+}
+.width1{
+  position: relative;
+  margin-top: 1px;
+  background-color: gray;
+  height: 4px;
+}
+.height1{
+  background-color:red;
+  position: absolute;
+  height: 4px;
+  width: 90%;
+}
+.width2{
+  position: relative;
+  margin-top: 1px;
+  background-color: gray;
+  height: 4px;
+}
+.height2{
+  background-color:red;
+  position: absolute;
+  height: 4px;
+  width: 80%;
+}
+.width3{
+  position: relative;
+  margin-top: 1px;
+  background-color: gray;
+  height: 4px;
+}
+.height3{
+  background-color:red;
+  position: absolute;
+  height: 4px;
+  width: 75%;
+}
+.width4{
+  position: relative;
+  margin-top: 1px;
+  background-color: gray;
+  height: 4px;
+}
+.height4{
+  background-color:red;
+  position: absolute;
+  height: 4px;
+  width: 70%;
+}
+
+/* Left Section Styling */
+ .left-section {
+  background-color: #464545;
+  color: white;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #e63946;
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 20%;
+    border-radius: 50%;
+    border: 5px solid #6d040d;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #99373f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #d48086;
+} 
+
+
+
